@@ -1,10 +1,10 @@
-# Шаблон VSC SA-MP
-Инструкция по использованию:
+# VSC SA-MP Template
+Instructions for use:
 
-1.Клонируйте репозиторий
+1.Clone the repository
 
-2.Установите ваши скрипты мод и инклуды (Если есть)
+2.Install your mod scripts and includs (If any)
 
-3.Откройте эту папку с помощью VSC
+3.Open this folder using VSC
 
-Наслаждайтесь рабочим местом =)
+Enjoy your workplace =)
