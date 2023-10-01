@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile",
+            "type": "shell",
+			"args": ["'${fileBasename}'", "'-D${fileDirname}'", "'-;+'", "'-(+'","'-w203'"],  
+			"windows":  
+			{  
+				"command": "${workspaceRoot}\\qawno\\Start.bat"  
+			},
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+    ]
+}

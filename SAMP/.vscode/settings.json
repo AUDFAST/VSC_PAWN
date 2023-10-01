@@ -1,0 +1,45 @@
+{
+	"editor.fontSize": 13,
+	"files.encoding": "windows1251",
+	"editor.fontWeight": "bold",
+	"editor.fontFamily": "Courier New",
+	"editor.lineNumbers": "off",
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.cursorBlinking": "phase",
+	"editor.mouseWheelZoom": true,
+	"editor.mouseWheelScrollSensitivity": 2.0,
+	"search.exclude": 
+	{
+		"**/filterscripts": true,
+		"**/gamemodes": true,
+		"**/scriptfiles": true,
+		"*.txt": true
+	},
+	"files.exclude": 
+	{
+		"*/*.exe": true,
+		"**/*.exe": true,
+		".vscode": true,
+		"audiopacks": true,
+		"plugins": true,
+		"*/sound": true,
+		"*/*.dll": true,
+		"pawno/*.ini": true,
+		"*/*.bat": true,
+		"pawno/*.cfg": true,
+		"pawno/*.ico": true,
+		"samp-license.txt": true,
+		"server-readme.txt": true
+	},
+	"editor.snippetSuggestions": "inline",
+	"update.channel": "none",
+	"files.associations": {"*.pwn":"cpp"},
+	"editor.roundedSelection": false,
+	"workbench.colorTheme": "Visual Studio Dark",
+	"workbench.iconTheme": "pawn-icons",
+	"C_Cpp.addWorkspaceRootToIncludePath": false,
+	"C_Cpp.formatting": "Disabled",
+	"C_Cpp.errorSquiggles": "disabled",
+	"cmake.configureOnOpen": false
+}

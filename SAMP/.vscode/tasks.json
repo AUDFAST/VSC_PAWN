@@ -1,0 +1,39 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile",
+            "type": "shell",
+			"args": ["'${fileBasename}'", "'-D${fileDirname}'", "'-;+'", "'-(+'","'-w203'"],  
+			"windows":  
+			{  
+				"command": "${workspaceRoot}\\pawno\\pawncc.exe"  
+			},
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Test",
+            "type": "shell",
+			"windows":  
+			{  
+				"command": "${workspaceRoot}\\samp-server.exe"
+			},
+
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        }
+    ]
+}
