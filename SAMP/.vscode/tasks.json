@@ -7,7 +7,7 @@
 			"args": ["'${fileBasename}'", "'-D${fileDirname}'", "'-;+'", "'-(+'","'-w203'"],  
 			"windows":  
 			{  
-				"command": "${workspaceRoot}\\pawno\\Start.exe"  
+				"command": "${workspaceRoot}\\pawno\\Start.bat"  
 			},
             "group": {
                 "kind": "build",
